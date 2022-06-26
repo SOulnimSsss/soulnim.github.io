@@ -1,0 +1,137 @@
+.intro {
+ background-color: #0e0640;
+ width: 100%;
+ height: 770px;
+}
+.intro h1 {
+ color: white;
+ text-align: center;
+ font-family: sans-serif;;
+ font-size: 50px;
+ position: absolute;
+ top: 300px;
+ left: 550px;
+}
+nav a {
+ margin: 5px;
+ padding: 4px 8px 4px 8px;
+ color: white;
+ text-decoration: none;
+ border: 2px solid white;
+ position: relative;
+ top: 0px;
+ left: 51%;
+}
+.navbar {
+ background-color: #03010f;
+ height: 50px;
+ border: 2px solid white;
+}
+body {
+ padding: 0;
+ margin: 0;
+}
+nav h1 {
+ display: inline;
+ color: white;
+ padding: 20px 10px 20px 10px;
+ font-size: 35px;
+ position: relative;
+ left: 10px;
+ top: 5px;
+}
+#profile {
+ width: 100%;
+ height: 830px;
+ background-color: #06021f;
+}
+#projects {
+ width: 100%;
+ height: 830px;
+ background-color: #0e0640;
+}
+#contacts {
+ width: 100%;
+ height: 830px;
+ background-color: #0e0640;
+}
+#achievements {
+ width: 100%;
+ height: 830px;
+ background-color: #06021f;
+}
+.about-me {
+ color: white;
+ font-family: sans-serif;
+}
+.about-me h1 {
+ padding: 0;
+ margin: 0;
+}
+.grid-container-profile {
+ display: grid;
+ grid-template-columns: 50% 50%;
+ padding: 0;
+ margin: 0;
+}
+
+.grid-item-profile {
+ background-color: #06021f;
+ border: 1px solid white;
+ padding: 10px;
+ font-size: 30px;
+ text-align: center;
+ color: white;
+}
+.grid-container-projects {
+ display: grid;
+ grid-template-columns: 25% 25% 25% 25%;
+}
+.grid-item-projects {
+ background-color: #0e0640;
+ border: 1px solid white;
+ padding: 10px;
+ font-size: 30px;
+ text-align: center;
+ color: white;
+}
+.grid-container-achievements {
+ display: grid;
+ grid-template-columns: auto auto auto;
+}
+.grid-item-achievements {
+ background-color: #06021f;
+ border: 1px solid white;
+ text-align: center;
+ color: white;
+ font-size: 30px;
+}
+#contacts h1 {
+ font-family: Arial;
+ color: white;
+ text-align: center;
+ position: relative;
+ top: 100px;
+ font-size: 80px;
+ margin: 0;
+ padding: 0;
+}
+#contacts p {
+ text-align: center;
+ font-size: 32px;
+ color: white;
+ position: relative;
+ top: 200px;
+ margin: 0;
+ padding: 0;
+}
+.contacts {
+ text-align: center;
+ font-size: 100px;
+ position: relative;
+ top: 300px;
+ 
+}
+html {
+ scroll-behavior: smooth;
+}
